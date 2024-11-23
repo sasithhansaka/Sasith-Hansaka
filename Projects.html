@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./project_page.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="hero-section">
+      <div>
+        <p><span id="date" class="date"></span></p>
+        <script>
+          const today = new Date();
+          const options = { weekday: "long", day: "2-digit", year: "numeric" };
+          const dateString = today.toLocaleDateString("en-US", options);
+          document.getElementById("date").textContent = dateString;
+        </script>
+      </div>
+
+      <div class="nav-bar-options">
+        <a href="./index.html">HOME</a>
+        <a href="./Abouth.html">ABOUTH</a>
+        <a href="./Projects.html">PROJECTS</a>
+        <a href="#contact">BLOGS</a>
+      </div>
+    </div>
+
+    <h3 class="projects-header">SEE ALL LATEST THE PROJECTS</h3>
+    <div class="projects-links">
+      <a
+        href="https://www.linkedin.com/in/your-profile/"
+        target="_blank"
+        class="link-in-anchor"
+      >
+        <div class="link-in-div">
+          <h2>LINKED IN</h2>
+          <div class="circle">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+      </a>
+      <a href="">
+        <div class="link-in-div">
+          <h2>GIT HUB</h2>
+          <div class="circle">
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <h3 class="ALLprojects-header">recent projects</h3>
+    <h6 class="ALLprojects-disc">
+      I HAVE DONE MANY PROJECTS.ONLY FEW IS VISIBLE HERE SEE ALL THE LATEST
+      PROJECTS THROUGH LINKED IN ,GITHUB
+    </h6>
+
+    <div class="my-recent-projects">
+      <div>
+        <img src="./images/1.png" style="border-radius: 50px" />
+      </div>
+      <div>
+        <h6></h6>
+      </div>
+    </div>
+
+    <div class="my-recent-projects">
+      <div>
+        <img src="./images/2.png" style="border-radius: 50px" />
+      </div>
+      <div>
+        <h6>
+          web-based implementation of the classic Snakes and Ladders game. Built
+          using HTML, CSS, and JavaScript, the game features an interactive user
+          interface and leverages a doubly linked list data structure to
+          efficiently manage the game board mechanics. Players can roll the
+          dice, navigate the board, and enjoy a seamless gaming experience right
+          in their browser. For more details about the project, including the
+          code and implementation process, visit my GitHub or connect with me on
+          LinkedIn.
+        </h6>
+      </div>
+    </div>
+
+    <button onclick="" class="SEEALL_PROJECTS_BUTTON">see all</button>
+  </body>
+</html>

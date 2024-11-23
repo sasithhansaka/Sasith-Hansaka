@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./abouthmepage.css" />
+  </head>
+  <body>
+    <div class="hero-section">
+      <div>
+        <p><span id="date" class="date"></span></p>
+        <script>
+          const today = new Date();
+          const options = { weekday: "long", day: "2-digit", year: "numeric" };
+          const dateString = today.toLocaleDateString("en-US", options);
+          document.getElementById("date").textContent = dateString;
+        </script>
+      </div>
+
+      <div class="nav-bar-options">
+        <a href="./index.html">HOME</a>
+        <a href="./Abouth.html">ABOUTH</a>
+        <a href="./Projects.html">PROJECTS</a>
+        <a href="#contact">BLOGS</a>
+      </div>
+    </div>
+
+    <div class="abouth-details-section">
+      <div class="main-details">
+        <div>
+          <p class="abouth-head">ABOUTH ME</p>
+          <p class="name">S.W. SASITH HANSAKA</p>
+
+          <div class="topic-div">
+            <i class="fa-solid fa-house"></i>
+            <p>MATARA , Sri lanka</p>
+          </div>
+          <p class="intro">
+            MATARA, in the southern part of Sri Lanka is where I was born and
+            raised
+          </p>
+
+          <div class="topic-div">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <p>EDUCATION</p>
+          </div>
+
+          <p class="uni-head">
+            National Institute of Business Management (NIBM)
+          </p>
+          <p class="intro">
+            Diploma in Software Engineering<br />
+            National Institute of Business Management (NIBM)<br />
+            2023
+          </p>
+
+          <p class="intro">
+            Higher National Diploma in Software Engineering<br />
+            National Institute of Business Management (NIBM)<br />
+            2024
+          </p>
+        </div>
+        <div>evdve hhnfenj</div>
+      </div>
+      <div class="other-details">
+        <div class="topic-div">
+          <i class="fa-brands fa-linkedin"></i>
+          <p>professional skills</p>
+        </div>
+        <p class="intro">
+          Want to see more about my professional skills and experiences? Visit
+          my LinkedIn profile to explore my journey, achievements, and
+          connections.
+        </p>
+        <img src="" class="Medium-pic" />
+
+        <div class="topic-div">
+          <i class="fa-regular fa-newspaper"></i>
+          <p>Blogger</p>
+        </div>
+        <p class="intro">
+          Writing is my passion, and I love sharing my thoughts and knowledge
+          through articles. Check out my latest posts on Medium and join me in
+          exploring topics that inspire and inform!
+        </p>
+        <img src="" class="Medium-pic" />
+      </div>
+
+      <div class="out-of-coding">
+        <div class="topic-div">
+          <i class="fa-regular fa-newspaper"></i>
+          <p style="color: #49ccf5; font-family: Quantico, sans-serif">
+            When I'm Not Coding?
+          </p>
+        </div>
+        <div class="interested-section">
+          <div style="margin-top: 50px">
+            <p>
+              “A few months ago, I started writing articles on Medium, and it
+              quickly became one of my favorite activities. Sharing ideas,
+              experiences, and knowledge has been an incredibly rewarding
+              journey”
+            </p>
+          </div>
+          <div>
+            <img src="./images/medium articles.png" />
+          </div>
+        </div>
+        <hr />
+
+        <div class="interested-section">
+          <div>
+            <img src="./images/gym.jpg" />
+          </div>
+          <div style="margin-top: 50px">
+            <p>
+              “I love staying active. Going to the gym every day is my way of
+              staying energized and focused—it’s a routine I truly enjoy.”
+            </p>
+          </div>
+        </div>
+        <hr />
+
+        <div class="interested-section">
+          <div style="margin-top: 50px">
+            <p>
+              “I'm also a die-hard cricket fan. Whether it’s following matches
+              or playing with friends, cricket has always been a passion of
+              mine.”
+            </p>
+          </div>
+          <div>
+            <img src="./images/medium articles.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
